@@ -1,0 +1,59 @@
+/* Estilizando o header */
+ion-header {
+  --background: #4caf50; /* cor do header */
+}
+
+ion-title {
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilo geral do ion-card */
+ion-card {
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+ion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagens dentro dos cards */
+ion-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Títulos e subtítulos */
+ion-card-title {
+  font-size: 1.4em;
+  color: #333;
+  font-weight: bold;
+}
+
+ion-card-subtitle {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Espaçamento entre seções do blog */
+.blog-section {
+  padding: 20px 10px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-section:not(:last-child) {
+  border-bottom: 2px solid #ddd;
+}
+
+/* Seção para ajustar o conteúdo geral */
+ion-content {
+  --background: #fff; /* cor de fundo da página */
+}
